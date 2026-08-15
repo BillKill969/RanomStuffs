@@ -1,0 +1,15 @@
+#!/bin/sh
+
+kill -TERM -1
+sleep 2
+kill -KILL -1
+sync
+umount -a -r
+mount -o remount,ro /
+
+case "$1" in
+  poweroff) echo o > /proc/sysrq-trigger ;;
+  reboot) echo b > /proc/sysrq-trigger ;;
+  *) exit 1;;
+esac
+  
