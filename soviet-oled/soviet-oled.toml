@@ -1,0 +1,72 @@
+# soviet-oled.toml — Alacritty theme
+# OLED Dark version inspired by soviet.nvim
+# Pitch black #000000 background, poster red cursor, warm paper text, and Soviet printing inks.
+# Reference: https://github.com/rezniqov/soviet.nvim
+
+[colors.primary]
+background = "#000000"
+foreground = "#d8cfc4"
+dim_foreground = "#a89e97"
+bright_foreground = "#e9dfd0"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#e36a5b" # Soviet poster red
+
+[colors.vi_mode_cursor]
+text = "#000000"
+cursor = "#d1b078" # Workshop brass
+
+[colors.selection]
+text = "CellForeground"
+background = "#382e36" # Muted plum-graphite
+
+[colors.search.matches]
+foreground = "#000000"
+background = "#d1b078" # Technical brass
+
+[colors.search.focused_match]
+foreground = "#000000"
+background = "#e36a5b" # Poster red
+
+[colors.footer_bar]
+foreground = "#d8cfc4"
+background = "#0c0b0b"
+
+[colors.hints.start]
+foreground = "#000000"
+background = "#d29a69" # Ochre
+
+[colors.hints.end]
+foreground = "#000000"
+background = "#45a39e" # Turquoise enamel
+
+[colors.normal]
+black   = "#1f1d1d" # Warm graphite
+red     = "#e36a5b" # Poster printing red
+green   = "#65aa88" # Green printing ink
+yellow  = "#d29a69" # Warm ochre
+blue    = "#5b93bc" # Enamel blue
+magenta = "#c58f9d" # Book-cover burgundy
+cyan    = "#45a39e" # Industrial turquoise
+white   = "#d8cfc4" # Warm book paper
+
+[colors.bright]
+black   = "#6c665f" # Cartographic contour gray
+red     = "#ef7565" # Bright red / alert
+green   = "#b8ba73" # Workshop added green
+yellow  = "#d1b078" # Workshop brass
+blue    = "#7899a0" # Industrial steel
+magenta = "#d6a1af" # Light burgundy
+cyan    = "#5ec0bb" # Bright turquoise
+white   = "#e9dfd0" # Bright paper white
+
+[colors.dim]
+black   = "#0f0e0e"
+red     = "#a14c45"
+green   = "#4a7860"
+yellow  = "#9a6c45"
+blue    = "#3e6480"
+magenta = "#8e5e6c"
+cyan    = "#2d6f6b"
+white   = "#8f8880"
