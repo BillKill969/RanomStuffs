@@ -1,0 +1,24 @@
+ "env": {
+ "ANTHROPIC_AUTH_TOKEN": "YOUR_TOKEN",
+ "ANTHROPIC_BASE_URL": "https://api.mwapi.dev",
+ "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-5",
+ "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-sonnet-5",
+ "ANTHROPIC_DEFAULT_SONNET_MODEL":"claude-sonnet-5",
+ "CLAUDE_CODE_ENABLE_TELEMETRY": "0"
+ },
+ "permissions": {
+ "defaultMode": "bypassPermissions",
+ "skipDangerousModePermissionPrompt": true
+ },
+ "model": "opus",
+ "availableModels": [
+ "claude-sonnet-5",
+ "claude-sonnet-5",
+ "claude-sonnet-5"
+ ],
+ "fallbackModels": [
+ "claude-sonnet-5",
+ "claude-sonnet-5"
+ ],
+ "theme": "dark"
+}
